@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assigment Week2</title>
+  </head>
+  <body>
+    <h1>Ordered List (Roman Numerals)</h1>
+    <ol type="I">
+      <li>First Item</li>
+      <li>Second Item</li>
+      <li>Third Item</li>
+      <li>Fourth Item</li>
+      <li>Fifth Item</li>
+    </ol>
+    <h1>External Image from Pexels</h1>
+    <img
+      src="https://images.pexels.com/photos/3814243/pexels-photo-3814243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      alt="South africa "
+      width="300"
+    />
+
+    <h1>Table of 5 Contents</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Gabriel M</td>
+          <td>1 Richards Drives, SOUTH AFRICA</td>
+          <td>0601214105</td>
+          <td>gabrielmussafiri@lygmgroup.co.za</td>
+        </tr>
+        <tr>
+          <td>Candy P</td>
+          <td>1 Richards Drives, SOUTH AFRICA</td>
+          <td>0601214105</td>
+          <td>candyphila@lygmgroup.co.za</td>
+        </tr>
+        <tr>
+          <td>Briguel M</td>
+          <td>1 Richards Drives, SOUTH AFRICA</td>
+          <td>0601214105</td>
+          <td>briguelmutombo@lygmgroup.co.za</td>
+        </tr>
+        <tr>
+          <td>Enoch I</td>
+          <td>1 Richards Drives, SOUTH AFRICA</td>
+          <td>0601214105</td>
+          <td>emochipanguna@lygmgroup.co.za</td>
+        </tr>
+        <tr>
+          <td>Thabang M</td>
+          <td>1 Richards Drives, SOUTH AFRICA</td>
+          <td>0601214105</td>
+          <td>thabangmalhangu@lygmgroup.co.za</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h1>Registration Form</h1>
+    <form action="#" method="POST">
+      <!-- Name Field -->
+      <label for="name">Full Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your full name"
+        required
+      />
+      <br /><br />
+
+      <!-- Email Field -->
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      />
+      <br /><br />
+
+      <!-- Password Field -->
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter a strong password"
+        required
+      />
+      <br /><br />
+
+      <!-- Date Field -->
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required />
+      <br /><br />
+
+      <!-- Dropdown (Select Box) -->
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <option value="">Select your country</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+        <option value="canada">Canada</option>
+        <option value="australia">Australia</option>
+      </select>
+      <br /><br />
+
+      <!-- Radio Buttons (Gender Selection) -->
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Male</label>
+
+      <input type="radio" id="female" name="gender" value="female" required />
+      <label for="female">Female</label>
+      <br /><br />
+
+      <!-- Checkboxes (Interests) -->
+      <label>Interests:</label>
+      <input type="checkbox" id="sports" name="interests" value="sports" />
+      <label for="sports">Sports</label>
+
+      <input type="checkbox" id="music" name="interests" value="music" />
+      <label for="music">Music</label>
+
+      <input type="checkbox" id="travel" name="interests" value="travel" />
+      <label for="travel">Travel</label>
+      <br /><br />
+
+      <!-- Submit Button -->
+      <button type="submit">Register</button>
+    </form>
+
+    <!-- Multimedia: Audio and Video -->
+    <h2>Multimedia</h2>
+
+    <!-- Audio Element -->
+    <h3>Background Music</h3>
+    <audio controls>
+      <source
+        src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        type="audio/mpeg"
+      />
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video Element -->
+    <h3>Sample Video</h3>
+    <video width="600" controls>
+      <source
+        src="https://www.w3schools.com/html/mov_bbb.mp4"
+        type="video/mp4"
+      />
+      Your browser does not support the video element.
+    </video>
+  </body>
+</html>
